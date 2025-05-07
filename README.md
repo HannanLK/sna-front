@@ -35,3 +35,19 @@ Make sure Tailwind CSS is installed and configured by the instructions in the [T
 npm install tailwindcss @tailwindcss/vite
 npx tailwindcss init
 ```
+## 📝 Tech Stack
+- React (for building the UI)  
+- Vite (for fast development)  
+- Tailwind CSS (for styling)
+- React Router (for navigation) 
+- Axios (for making API requests)  
+
+## 📂 Directory Structure
+- `src/`: Contains all source code for the application.  
+- `src/pages/`: Contains page components like Product.jsx, SocialMedia.jsx, etc. 
+- `src/components/`:  Contains reusable UI components.
+- `src/utils/`:  Contains utility functions like API calls.
+  
+## 🌐 Deployment
+Can be deployed on platforms like Vercel, Netlify, or Heroku.
+For Vercel deployment, refer to their [docs](https://vercel.com/docs).
