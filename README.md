@@ -1,12 +1,37 @@
-# React + Vite
+# Sentiment Analysis Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for the **Sentiment Analysis Tool**. It is built with **React** and **Vite** for fast development, and styled with **Tailwind CSS**. The frontend allows users to input product reviews or social media post links and displays sentiment analysis results in an interactive interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Product Review Input**: Allow users to input product reviews manually or upload CSV/Excel files.
+- **Social Media Post Analysis**: Allow users to input social media post links (e.g., Twitter, Reddit) and analyze the comments.
+- **Visualization**: Display sentiment distribution (positive/neutral/negative) in charts.
+- **Downloadable Reports**: Provide users with the option to download analysis results in PDF format.
 
-## Expanding the ESLint configuration
+## 🛠️ Setup and Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js and npm installed. You can download them from [here](https://nodejs.org/).
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/hannanlk/sna-front.git
+cd sna-front
+```
+### 2. Install Dependencies
+```bash
+npm install
+```
+### 3. Start Development Server
+```bash
+npm run dev
+```
+Your app will be running at http://localhost:3000
+### 4. Tailwind CSS Setup
+Make sure Tailwind CSS is installed and configured by the instructions in the [Tailwind Docs](https://tailwindcss.com/docs/installation/using-vite). If not set up, you can run:
+```bash
+npm install tailwindcss @tailwindcss/vite
+npx tailwindcss init
+```
